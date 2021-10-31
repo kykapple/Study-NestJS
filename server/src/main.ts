@@ -18,4 +18,4 @@ async function bootstrap() {
 }
 bootstrap();
 
-// jenkins !?
+// jenkins CI/CD
