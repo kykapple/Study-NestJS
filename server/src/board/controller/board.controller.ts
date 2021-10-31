@@ -11,11 +11,11 @@ import {
     UsePipes,
     ValidationPipe
 } from '@nestjs/common';
-import {BoardService} from "./board.service";
-import { BoardStatus } from "./board.status.enum";
-import {BoardDto} from "./dto/board.dto";
-import {BoardPipe} from "./pipes/board.pipe";
-import {Board} from "./board.entity";
+import {BoardService} from "../board.service";
+import { BoardStatus } from "../board.status.enum";
+import {BoardDto} from "../dto/board.dto";
+import {BoardPipe} from "../pipes/board.pipe";
+import {Board} from "../board.entity";
 
 @Controller('/board')
 export class BoardController {
