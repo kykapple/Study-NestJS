@@ -4,8 +4,10 @@ dotenv.config();
 import { AppModule } from './app.module';
 import * as cookieParser from 'cookie-parser';
 
+export let app;
+
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  app = await NestFactory.create(AppModule);
   const PORT = process.env.PORT || 3000;
 
   app.use(cookieParser());
