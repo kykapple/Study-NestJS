@@ -20,4 +20,4 @@ async function bootstrap() {
 }
 bootstrap();
 
-// jenkins CD GOGO!!
+// jenkins CD plz....
